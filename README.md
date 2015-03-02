@@ -1,14 +1,17 @@
-# sample_zhy_StickyNavLayout
-仿360页面详情，转载的
-Android-StickyNavLayout
-An android library for navigator that stick on the top
+# Android-StickyNavLayout
+An android library for navigator that stick on the top 
+声明：此为转载，原文请至：https://github.com/hongyangAndroid/Android-StickyNavLayout
 
-效果图
-Sample Screenshots
+# 效果图
 
-用法
-直接作为跟布局，内部一次放置，顶部内容区域，导航，ViewPager。 注意id，需要使用预定的id资源。
+![Sample Screenshots][1]
 
+
+# 用法
+直接作为跟布局，内部一次放置，顶部内容区域，导航，ViewPager。
+注意id，需要使用预定的id资源。
+
+```xml
 <com.zhy.view.StickyNavLayout xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -45,5 +48,12 @@ Sample Screenshots
     </android.support.v4.view.ViewPager>
 
 </com.zhy.view.StickyNavLayout>
-关于我
-我的博客地址
+
+```
+
+#关于我
+
+[我的博客地址][3]
+
+[1]: https://github.com/hongyangAndroid/Android-StickyNavLayout/blob/master/sample_zhy_StickyNavLayout/ss_sticky.gif
+[3]: http://blog.csdn.net/lmj623565791
