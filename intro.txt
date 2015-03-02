@@ -1,0 +1,2 @@
+头header滚出屏幕以后，fragment里的scrollview需要手指抬起，重新滑动才有效果
+自定义3个id，需要使用，也就是scrollview，header，还有viewpager需要使用我们自己定义的id，以为自定义布局里使用了这几个固定id
